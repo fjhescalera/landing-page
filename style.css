@@ -5,8 +5,7 @@ body{
     justify-content: space-between;
     font-weight: bold;
     background-color: #1F2937;
-    height: 100vh;
-    border: solid greenyellow;
+    /*border: solid greenyellow;*/
 }
 
 .header{
@@ -16,7 +15,7 @@ body{
     align-items: stretch;
     height: 10vh;
     padding:0 19vw;
-    border: solid red;
+    /*border: solid red;*/
 
 }
 
@@ -28,7 +27,7 @@ body{
     font-size: 24px;
     max-width: 25vw;
     flex:1 1 auto;
-    border: solid salmon;
+    /*border: solid salmon;*/
     
 }
 .header-logo{
@@ -43,7 +42,7 @@ body{
     max-width: 25vw;
     display: flex;
     justify-content: flex-end;
-    border: solid salmon;
+    /*border: solid salmon;*/
 
 }
 .footer{
@@ -57,11 +56,12 @@ body{
     justify-content: center;
     max-height: fit-content;
     gap:10vw;  
-    border: solid salmon;
+    /*border: solid salmon;*/
 }
 .hero-left{
     max-width: 25vw;
     height: auto;
+    flex:1;
 }
 .main{
     font-size: 48px;
@@ -75,6 +75,7 @@ body{
 .placeholder{
     max-width: 25vw;
     height: auto;
+    flex:1;
 }
 .image-section{
     display:flex;
@@ -84,7 +85,7 @@ body{
     align-items:center;
     gap:20px;
     background-color: #E5E7EB;
-    border: solid salmon;
+    /*border: solid salmon;*/
 }
 .image-section img{
     max-width: 5vw;
