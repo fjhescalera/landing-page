@@ -75,6 +75,7 @@ body{
     color: #E5E7EB;
 }
 .placeholder{
+    border-radius:15px;
     max-width: 35vw;
     height: auto;
     flex:auto;
