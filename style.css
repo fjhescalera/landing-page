@@ -5,7 +5,6 @@ body{
     justify-content: space-between;
     font-weight: bold;
     background-color: #1F2937;
-    gap: 3vh;
     margin:10px 0;
     
     /*border: solid greenyellow;*/
@@ -82,14 +81,14 @@ body{
     flex:auto;
 }
 .image-section{
-    padding:0 5vw;
+    padding:0.5vh 5vw;
     display:flex;
     flex-direction: column;
     max-height:fit-content;
     justify-content: center;
     align-items: center;
     gap:20px;
-    background-color: #E5E7EB;
+    background-color: whitesmoke;
     /*border: solid salmon;*/
 }
 .image-section img{
@@ -118,6 +117,51 @@ body{
 #white1,#white2{
     filter: invert(100%) sepia(94%) saturate(12%) hue-rotate(25deg) brightness(100%) contrast(97%);
 }
+.quote-section{
+    display: flex;
+    padding:3vh 9vw;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    flex-flow: column wrap;
+}
+.quote{
+    font-size: 3vw;
+    font-weight: 300;
+    font-style: italic;
+}
+.author{
+    font-size: 1.5vw;
+    align-self: flex-end;
+}
+.ad{
+    background-color: #F9FAF8;
+    padding: 4vh 12vw;
+}
+.ad .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding:5vw;
+    border-radius: 5px;
+    background-color: #3882f6;
+
+}
+.left{
+    color: #F9FAF8;
+
+}
+.left .title{
+    font-size:x-large;
+    font-weight:500;
+}
+.left .text{
+    font-size: larger;
+    font-weight: 300;
+}
+.ad button{
+    font-size: medium;
+    border:2px solid #F9FAF8;
+}
 ul{
     font-size: 2vw;
     list-style: none;
@@ -133,6 +177,10 @@ ul{
 
 }
 button{
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
     font-size: 1vw;
     max-width:fit-content;
     flex:auto;
