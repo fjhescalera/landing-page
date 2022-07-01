@@ -24,7 +24,7 @@ body{
     flex-direction:column-reverse;
     justify-content: space-between;
     align-items: flex-start;
-    font-size: 24px;
+    font-size: 1.5em;
     max-width: 25vw;
     flex:1 1 auto;
     /*border: solid salmon;*/
@@ -34,7 +34,7 @@ body{
     filter: invert(100%) sepia(94%) saturate(12%) hue-rotate(25deg) brightness(100%) contrast(97%);
     max-width: 3.5vw;
     height: auto;
-    flex: 1;
+    flex: 1 1 auto;
     /*margin-bottom: 6px;*/
 }
 .header-links{
